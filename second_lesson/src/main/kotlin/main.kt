@@ -1,5 +1,5 @@
 fun main(args: Array<String>) {
-    swap()
+    menu()
 }
 
 fun swap()  {
@@ -13,6 +13,13 @@ fun swap()  {
     println("a=$a b=$b") // a=20 b=10
 }
 
+fun menu() {
+    println("+------------------------------+")
+    println("|             меню             |")
+    println("|      1.поменять местами      |")
+    println("|           0.выход            |")
+    println("+------------------------------+")
+}
 
 
 
